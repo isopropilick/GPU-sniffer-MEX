@@ -1,6 +1,7 @@
 pipeline {
     agent any
     environment {
+        TOKENDISCCORD1 = credentials('discord-token')
     }
     stages {
         stage('clean') {
