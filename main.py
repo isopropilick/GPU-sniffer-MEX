@@ -22,4 +22,4 @@ async def on_message(message):
         await message.channel.send('https://dimercom.mx/?swoof=1&product_cat=0&post_type=product&woof_text='+modelplus+'&stock=instock')
         await message.channel.send('https://www.cyberpuerta.mx/index.php?cl=search&searchparam='+modelplus)
 
-client.run(os.getenv('TOKENBOTDC1'))
+client.run(os.getenv('TOKENDISCCORD1'))
